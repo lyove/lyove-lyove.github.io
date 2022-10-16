@@ -1,0 +1,21 @@
+# Site settings
+title: Lyove
+description: lyove
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author: lyove
+
+# Collection settings
+collections:
+  photos:
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/lyove
+gitlab_url: https://gitlab.com/lyove
+
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-cayman

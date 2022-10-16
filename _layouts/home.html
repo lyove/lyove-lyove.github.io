@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+{% include head.html %}
+
+    <body class="is-loading-0 is-loading-1 is-loading-2">
+
+        <!-- Main -->
+        <div id="main">
+
+        {% include header.html %}
+        
+        {{ content }}
+
+        {% include footer.html %}
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+        <script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+        <!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}></script><![endif]-->
+        <script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+
+    </body>
+</html>
