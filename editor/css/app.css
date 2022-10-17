@@ -15,53 +15,6 @@
     --app-color-primary-text: #fff;
 }
 
-:root:is(.light, .dark) {
-    --editor-block-background: var(--app-color-primary-dark);
-    --editor-block-color: var(--app-color-primary-text);
-    --editor-border: var(--app-color-border);
-    --editor-button-background: var(--app-color-primary-dark);
-    --editor-button-color: var(--app-color-primary-text);
-    --editor-cancel-background: var(--app-color-primary-light);
-    --editor-cancel-color: var(--app-color-primary-text);
-    --editor-dialog-backdrop: #000000cc;
-    --editor-dialog-background: var(--app-color-primary-text);
-    --editor-dialog-color: var(--app-color-primary);
-    --editor-error: var(--app-color-error);
-    --editor-focus: var(--app-color-accent-light);
-    --editor-hover: var(--app-color-accent-light);
-    --editor-placeholder: var(--app-color-primary-light);
-    --editor-slot: var(--app-color-primary-light);
-    --editor-sortover: var(--app-color-primary-dark);
-    --editor-toolbar-background: var(--app-color-primary-text);
-    --editor-toolbar-color: var(--app-color-primary);
-}
-
-:root.dark {
-    --app-color-accent: #4166f5;
-    --app-color-accent-dark: #003cc1;
-    --app-color-accent-light: #8193ff;
-    --app-color-accent-text: #fff;
-    --app-color-border: #000;
-    --app-color-error: #b22222;
-    --app-color-error-text: #fff;
-    --app-color-primary: #222;
-    --app-color-primary-dark: #000;
-    --app-color-primary-light: #494949;
-    --app-color-primary-text: #fff;
-    --editor-dialog-backdrop: #ffffffcc;
-    --editor-dialog-background: var(--app-color-primary);
-    --editor-dialog-color: var(--app-color-primary-text);
-    --editor-toolbar-background: var(--app-color-primary);
-    --editor-toolbar-color: var(--app-color-primary-text);
-}
-
-/**
- * Custom Elements
- */
-:host * {
-    pointer-events: none;
-}
-
 /**
  * Layout
  */
@@ -97,51 +50,8 @@ body {
 }
 
 /**
- * Margin Top
- */
-:is(lyove-editor editor-textarea, #rte, #rte div) > :not(:is(:first-child)) {
-    margin-top: 1.5rem;
-}
-
-:is(details, figure, section) > :not(:first-child) {
-    margin-top: 0.75rem;
-}
-
-/**
  * Font
  */
-@font-face {
-    font-family: knewave;
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../font/knewave.woff') format('woff');
-}
-
-@font-face {
-    font-family: raleway;
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../font/raleway.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: spartan;
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../font/spartan.woff2') format('woff2');
-}
-
-body {
-    font-family: raleway;
-}
-
-blockquote {
-    font-family: knewave;
-}
-
 #header label:first-child {
     font-variation-settings: 'wght' 700;;
 }
@@ -154,11 +64,6 @@ body {
     background: var(--app-color-primary-text);
 }
 
-:root.dark body {
-    color: var(--app-color-primary-text);
-    background: var(--app-color-primary);
-}
-
 
 #header,
 #header select {
@@ -166,11 +71,8 @@ body {
     background: var(--app-color-primary-dark);
 }
 
-
-
-#rte app-block {
-    color: var(--app-color-accent-text);
-    background: var(--app-color-accent-dark);
+#header .right {
+    text-align: right;
 }
 
 #clear {
@@ -183,21 +85,6 @@ body {
     color: var(--app-color-error-text);
     background: var(--app-color-error);
     cursor: pointer;
-}
-
-/**
- * Block
- */
-#rte app-block {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-}
-
-#rte app-block::before {
-    display: inline-block;
-    vertical-align: middle;
-    content: var(--editor-text-block);
 }
 
 /**
