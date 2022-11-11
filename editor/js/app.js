@@ -1,5 +1,3 @@
-import SrcEditor from './editor.js';
-
 document.addEventListener('DOMContentLoaded', async () => {
     const textarea = document.documentElement;
     const header = document.getElementById('header');
@@ -16,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const setMode = () => mode.value ? textarea.setAttribute('class', mode.value) : textarea.removeAttribute('class');
     const init = () => {
         editor?.destroy();
-        const Editor = SrcEditor;
+        const Editor = window.lyoveEditor;
         if(rte) {
             editor = Editor.create(rte, {
                 lang: lang.value,
