@@ -35,6 +35,10 @@ section > :not(:first-child) {
 /**
  * Font
  */
+h2 {
+    font-size: 1.25rem;
+}
+
 figcaption {
     font-size: 0.85rem;
 }
