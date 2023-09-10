@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[996],{1302:e=>{e.exports=JSON.parse('{"permalink":"/popover/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
