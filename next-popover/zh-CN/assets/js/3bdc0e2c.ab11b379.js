@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[530],{6815:e=>{e.exports=JSON.parse('{"permalink":"/popover/zh-CN/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
+"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[530],{6815:e=>{e.exports=JSON.parse('{"permalink":"/next-popover/zh-CN/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

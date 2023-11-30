@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[971],{9001:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/popover/zh-CN/blog/tags/hello","allTagsPath":"/popover/zh-CN/blog/tags","count":2}')}}]);
+"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[971],{9001:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/next-popover/zh-CN/blog/tags/hello","allTagsPath":"/next-popover/zh-CN/blog/tags","count":2}')}}]);
