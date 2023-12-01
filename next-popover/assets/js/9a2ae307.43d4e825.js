@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[508],{4092:e=>{e.exports=JSON.parse('{"label":"javascript","permalink":"/next-popover/blog/tags/javascript","allTagsPath":"/next-popover/blog/tags","count":4}')}}]);
+"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[508],{4092:e=>{e.exports=JSON.parse('{"label":"javascript","permalink":"/blog/tags/javascript","allTagsPath":"/blog/tags","count":4}')}}]);
