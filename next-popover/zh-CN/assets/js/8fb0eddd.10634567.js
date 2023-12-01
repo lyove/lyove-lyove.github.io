@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[442],{9313:e=>{e.exports=JSON.parse('{"label":"javascript","permalink":"/zh-CN/blog/tags/javascript","allTagsPath":"/zh-CN/blog/tags","count":4}')}}]);
