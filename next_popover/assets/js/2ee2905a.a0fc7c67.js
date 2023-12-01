@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[548],{4647:e=>{e.exports=JSON.parse('{"label":"popover","permalink":"/blog/tags/popover","allTagsPath":"/blog/tags","count":1}')}}]);
+"use strict";(self.webpackChunknext_popover_document=self.webpackChunknext_popover_document||[]).push([[548],{4647:e=>{e.exports=JSON.parse('{"label":"popover","permalink":"/next_popover/blog/tags/popover","allTagsPath":"/next_popover/blog/tags","count":1}')}}]);
